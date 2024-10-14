@@ -1,0 +1,113 @@
+/*--------------------------------------------------------------------------------------------
+*
+*	Global
+*
+*--------------------------------------------------------------------------------------------*/
+table.aec-input {
+	border: 0 none;
+	background: #fff;
+}
+
+table.aec-input tbody tr td {
+	padding: 13px 15px;
+	border-top: 1px solid #f5f5f5;
+	border-bottom: 0 none;
+}
+
+table.aec-input tbody tr td.label {
+	width: 24%;
+	vertical-align: top;
+	background: #F9F9F9;
+	border-top: 1px solid #f0f0f0;
+    border-right: 1px solid #E1E1E1;
+}
+
+table.aec-input > tbody > tr:first-child > td,
+table.aec-input > tbody > tr:first-child > td.label {
+	border-top: 0 none;
+}
+
+table.aec-input tbody tr td.label label {
+	display: block;
+	font-size: 13px;
+	line-height: 1.4em;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 0 3px;
+	color: #333;
+}
+
+table.aec-input tbody tr td.label label span.required {
+	color: #f00;
+	display: inline;
+	margin-left: 3px;
+}
+
+table.aec-input tbody tr td.label p {
+	display: block;
+	font-size: 12px;
+	line-height: 1.4em;
+	padding: 0 !important;
+	margin: 3px 0 0 !important;
+	font-style: normal;
+	line-height: 16px;
+	color: #899194;
+}
+
+table.aec-input input[type="text"],
+table.aec-input input[type="number"],
+table.aec-input textarea,
+table.aec-input select{
+	width: 99.95%;
+	padding: 3px 5px;
+	outline: none;
+}
+
+table.aec-input select {
+	padding: 2px;
+}
+
+table.aec-input select option {
+	padding: 3px;
+}
+
+table.aec-input input[type="text"]:focus,
+table.aec-input textarea:focus,
+table.aec-input select:focus {
+	border-color:#98B6CB;
+}
+
+.ui-datepicker {
+	display: none;
+}
+
+.aec-multi-checkbox {
+	display: inline-block;
+	min-width: 200px;
+	max-height: 150px;
+	padding: 7px; 
+	border: 1px solid #ccc;
+	overflow-y: scroll; 
+}
+
+.aec-map {
+	width: 100%;
+	height: 400px;
+	margin: 10px 0;
+}
+
+.aec-add-new-organizer-block {
+	display: block;
+	margin-top: 5px;
+	border-top: 1px solid #EEE;
+	text-align: right;
+}
+
+.aec-add-new-organizer-block a {
+	margin-top: 10px !important;
+}
+
+.aec-organizer-fields p {
+	width: 24%;
+	text-align: center;
+}

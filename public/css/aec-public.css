@@ -1,0 +1,212 @@
+/* General */
+.aec .aec-no-margin {
+	margin: 0 !important;
+}
+
+.aec .aec-margin-top {
+	margin-top: 10px !important;
+}
+
+.aec .aec-margin-bottom {
+	margin-bottom: 10px !important;
+}
+
+.aec .aec-no-margin-left {
+	margin-left: 0 !important;
+}
+
+.aec .aec-no-padding {
+	padding: 0 !important;
+}
+
+.aec-no-border {
+	border: 0 !important;
+}
+
+.aec .table-borderless,
+.aec .table-borderless tr,
+.aec .table-borderless th,
+.aec .table-borderless td {
+	border: 0 !important;
+}
+
+.aec .aec-spacer {
+	height:20px;
+}
+
+.aec .aec-well {
+	margin: 15px 0;
+	padding: 15px;
+	background: #f5f5f5;
+	border: 1px solid #EEE;
+}
+
+.aec .aec-spinner {
+	display: block;
+	margin: 0 auto;
+	width: 20px;
+	height:20px;
+	background-image: url('../images/spinner.gif');
+	background-repeat: no-repeat;
+	background-position: center center;	
+}
+
+/* Calendar */
+.aec .aec-calendar {
+	max-width:100%;
+}
+
+.aec .aec-calendar th,
+.aec .aec-calendar td {
+	width:14%;
+}
+
+.aec .aec-calendar h2.aec-date,
+.aec .aec-calendar .aec-day {
+	display:none;
+}
+
+.aec .aec-calendar td.active {
+	font-weight:bold;
+}
+
+.aec .aec-mini-calendar td {
+	vertical-align: middle !important;
+}
+
+/* Table Layout */
+.aec .aec-table-layout-row {
+	margin:10px 0;
+	padding: 7px;
+	border: 1px solid #ddd;
+	border-radius:3px;
+}
+
+/* Grid Layout */
+
+/* Pagination */
+.aec .pagination > li {
+	margin: 0;
+}
+
+/* Socialshare buttons */
+.aec-social-btn {
+	margin-right: 2px;
+    padding: 4px 8px 6px 8px;
+    color: #FFF;
+    font-size: 12px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.aec-social-btn:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+ 
+.aec-twitter {
+    background: #00aced;
+}
+
+.aec-twitter:hover,
+.aec-twitter:active {
+    background: #0084b4;
+}
+ 
+.aec-facebook {
+    background: #3B5997;
+}
+ 
+.aec-facebook:hover,
+.aec-facebook:active {
+    background: #2d4372;
+}
+ 
+.aec-googleplus {
+    background: #D64937;
+}
+ 
+.aec-googleplus:hover,
+.aec-googleplus:active {
+    background: #b53525;
+}
+ 
+.aec-linkedin {
+    background: #444;
+}
+ 
+.aec-linkedin:hover,
+.aec-linkedin:active {
+    background: #222;
+}
+ 
+.aec-pinterest {
+    background: #bd081c;
+}
+ 
+.aec-pinterest:hover,
+.aec-pinterest:active {
+    background: #bd081c;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {	
+	.aec .aec-calendar {
+		border:none !important;
+	}
+
+	.aec .aec-calendar table,
+	.aec .aec-calendar tbody,
+	.aec .aec-calendar tr,
+	.aec .aec-calendar tr th,
+	.aec .aec-calendar tr td {
+		float:left;
+   		clear:both;
+   		display:block;
+		width:100%;
+		margin:0;
+   		padding:0;
+		background:transparent !important;
+		border:0;
+		box-sizing:border-box;  
+	}
+
+	.aec .aec-calendar tr {
+		display:table;
+	}
+
+	.aec .aec-calendar td {
+		display:table-row;
+		border-top:none;	
+		border-right:1px solid #DDD;
+		border-bottom:1px solid #DDD;
+		border-left:1px solid #DDD;
+	}
+
+	.aec .aec-calendar .aec-header {
+		border-top:1px solid #DDD;
+	}
+
+	.aec .aec-calendar .aec-empty-cell,
+	.aec .aec-calendar .aec-header th,
+	.aec .aec-calendar p.aec-date {
+		display:none;
+	}
+
+	.aec .aec-calendar .aec-section-1,
+	.aec .aec-calendar .aec-section-2 {
+		display:table-cell;
+		padding:8px;
+		vertical-align:top;
+	}
+
+	.aec .aec-calendar .aec-section-1 {
+		width:100px;
+		border-right:1px solid #DDD;
+	}
+
+	.aec .aec-calendar h2.aec-date,
+	.aec .aec-calendar p.aec-day {
+		display:block;
+	}	
+}
